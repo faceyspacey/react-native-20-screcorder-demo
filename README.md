@@ -40,4 +40,5 @@ https://github.com/brentvatne/react-native-video
 1. run ifconfig from the command line to get your computer's IP address on your local router. It will be in the `en0` section and is generally something like `192.168.0.2`
 2. replace `localhost` with this address in `AppDelegate.m` within your project within Xcode.
 3. If you want remote debugging you will have to do the same in `MyProject/Libraries/RCTWebSocket.xcodeproj/RCTWebSocketExecutor.m`. Search the page for `localhost` and replace it with your ip address.
+5. you may have to change the Bundle Identifier name within Xcode. Click the main project file at the top, and in the *General* section, you will see the "Bundle Identifier" field. Add some words of your own there. If you have yet to run apps on your device yet, you will have to google elsewhere to figure out how. 
 4. Plug your phone in, select it in the top left of Xcode and run your project: `Cmd+R`
