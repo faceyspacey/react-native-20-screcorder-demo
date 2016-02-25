@@ -15,6 +15,8 @@ Some of the issues I came across that were solved are:
 
 ###A. git clone this, cd into the directory and run `npm install`
 
+***NOTE: you can skip B and C if you simply want to run this demo app. It's all already done for you. But below are the directions for if you want to do it from scratch.***
+
 ###B. Follow the react-native-screcorder "Getting started" directions:
 https://github.com/maxs15/react-native-screcorder
 
@@ -29,11 +31,12 @@ https://github.com/maxs15/react-native-screcorder
 ###C. Follow the react-native-video "Getting started" directions (they are outdated in the github repo):
 https://github.com/brentvatne/react-native-video
 
-1. Open your project in XCode, right click on Libraries and click Add Files to "Your Project Name"
-2. This one had incorrect info--here's the correct info: Within the `node_modules` of your React Native project, find the `react-native-video` folder, and then select RCTVideo.xcodeproj
-3. In XCode, in the project navigator, select your project. Go to the `Build Phases` Tab and expand the `Link Binary With Libraries` section and then Add `libRCTVideo.a`
-4. The instructions say: "Add .mp4 video file to project and to Build Phases -> Copy Bundle Resources" but you don't need this with eact-native-screcorder because it will generate that .mp4 for you :)
-5. Whenever you want to use it within React code now you can: `import Video from 'react-native-video';`
+1. `npm install react-native-video@latest --save`
+2. Open your project in XCode, right click on Libraries and click Add Files to "Your Project Name"
+3. This one had incorrect info--here's the correct info: Within the `node_modules` of your React Native project, find the `react-native-video` folder, and then select RCTVideo.xcodeproj
+4. In XCode, in the project navigator, select your project. Go to the `Build Phases` Tab and expand the `Link Binary With Libraries` section and then Add `libRCTVideo.a`
+5. The instructions say: "Add .mp4 video file to project and to Build Phases -> Copy Bundle Resources" but you don't need this with eact-native-screcorder because it will generate that .mp4 for you :)
+6. Whenever you want to use it within React code now you can: `import Video from 'react-native-video';`
 
 
 ###D. Run your project (`Cmd+R`) in Xcode. You will need to build for your device, not the simulator
