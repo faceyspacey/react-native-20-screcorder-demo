@@ -15,6 +15,7 @@ Some of the issues I came across that were solved are:
 ###A. git clone this, cd into the directory and run `npm install`
 
 ###B. Follow the react-native-screcorder "Getting started" directions:
+https://github.com/maxs15/react-native-screcorder
 
 1. `npm install react-native-screcorder@latest --save`
 2. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
@@ -25,6 +26,7 @@ Some of the issues I came across that were solved are:
 
 
 ###C. Follow the react-native-video "Getting started" directions (they are outdated in the github repo):
+https://github.com/brentvatne/react-native-video
 
 1. Open your project in XCode, right click on Libraries and click Add Files to "Your Project Name"
 2. This one had incorrect info--here's the correct info: Within the `node_modules` of your React Native project, find the `react-native-video` folder, and then select RCTVideo.xcodeproj
