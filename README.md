@@ -1,5 +1,7 @@
 # react-native-screcorder DEMO APP for React Native 0.20.0
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/faceyspacey/react-native-20-screcorder-demo.svg)](https://greenkeeper.io/)
+
 I had a hard time getting the react-native-screcorder demo app to work, as well as setting it up on a fresh demo app of my own. So once I got it working, I decided to make this for you!
 
 Some of the issues I came across that were solved are:
